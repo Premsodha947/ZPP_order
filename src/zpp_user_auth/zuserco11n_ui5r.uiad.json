@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "User Auth - CO11N",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "User Auth - CO11N"
+  },
+  "ui5AppDetails": {
+    "appId": "zco11nuser"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_297BB2175D5B3812D6476B44FBFD6677802F0FF8_TM",
+    "semanticObject": "zuserco11n",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_297BB2175D5B3812D6476B44FBFD6677802F0FF8_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "User Auth - CO11N"
+      }
+    }
+  ]
+}

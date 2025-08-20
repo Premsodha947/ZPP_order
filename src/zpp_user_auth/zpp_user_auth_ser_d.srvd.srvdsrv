@@ -1,0 +1,4 @@
+@EndUserText.label: 'ZPP_USER_AUTH'
+define service ZPP_USER_AUTH_SER_D {
+  expose ZPP_USER_AUTH_CDS;
+}

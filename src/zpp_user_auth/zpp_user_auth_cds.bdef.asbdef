@@ -1,0 +1,22 @@
+
+managed implementation in class zbp_pp_user_auth_cds unique;
+strict ( 2 );
+
+define behavior for ZPP_USER_AUTH_CDS //alias <alias_name>
+persistent table zuser_auth_tab
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+//  field ( readonly ) Userid;
+
+  mapping for zuser_auth_tab
+    {
+      Userid   = userid;
+      Username = username;
+      Authflag = authflag;
+    }
+}
